@@ -1,0 +1,40 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/testing-02",
+  "version": "0.1.0",
+  "title": "Testing 02",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Example block scaffolded with Create Block tool.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "section_style": {
+      "type": "string",
+      "default": "yellow"
+    },
+    "section_class": {
+      "type": "string",
+      "default": ""
+    },
+    "container_style": {
+      "type": "string",
+      "default": "yellow"
+    },
+    "myArray": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    }
+  },
+  "textdomain": "testing-02",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
